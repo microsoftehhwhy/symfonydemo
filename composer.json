@@ -14,7 +14,7 @@
         "symfony/polyfill-php82": "*"
     },
     "require": {
-        "php": ">=8.0",
+        "php": ">=8.2",
         "ext-pdo_sqlite": "*",
         "doctrine/dbal": "^4.0",
         "doctrine/doctrine-bundle": "^2.11",
@@ -73,7 +73,7 @@
             "platform-check": false
         },
         "platform": {
-            "php": "8.0.0"
+            "php": "<8.2.0"
         },
         "preferred-install": {
             "*": "dist"
